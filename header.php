@@ -17,7 +17,7 @@
       <div class="header">
 
         <div class="header-left">
-          <a href="" class="logo"><img width="100px" src="asset/images/kuma-logo.png"></a>
+          <a href="" class="logo"><img src="asset/images/kuma-logo.png"></a>
         </div>
 
         <div class="menu-toggle"></div>
