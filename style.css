@@ -3,7 +3,7 @@ body{
   padding: 0;
   min-width: 450px;
   font-family: Arial Narrow, sans-serif;
-  background: #faf3e8;
+  background: #fff2e6;
 }
 
 .header{
@@ -129,6 +129,13 @@ nav ul li a:hover{
   nav ul li a{
     font-size: 25px;
   }
+
+  .middle-container {
+    padding-top: 50px;
+    margin: auto;
+    width: 500px;
+  }
+
 }
 
 .responsive{
@@ -185,5 +192,47 @@ input[name="r"] {
 }
 
 .middle-container {
+  padding-top: 50px;
+  margin: auto;
+  width: 1000px;
+}
 
+.locations {
+  background-color: #F7E0C4;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px #ccc;
+}
+
+.location {
+  font-size: 30px;
+  overflow: hidden;
+  margin: 20px 0 0 0;
+}
+
+.text-box{
+}
+
+.locations img {
+  float: left;
+  width: 250px;
+  height: auto;
+}
+
+.location-selector{
+  display: flex;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.location-box{
+  width: 400px;
+  height: 400px;
+  background-color: #252525;
+  padding: 150px;
+  color: #fff;
 }

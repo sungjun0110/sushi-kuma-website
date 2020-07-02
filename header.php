@@ -15,7 +15,6 @@
     <header>
 
       <div class="header">
-
         <div class="header-left">
           <a href="" class="logo"><img src="asset/images/kuma-logo.png"></a>
         </div>

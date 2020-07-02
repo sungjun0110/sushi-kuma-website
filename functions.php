@@ -42,3 +42,5 @@ register_nav_menus(
       'page-menu' => __('Page menu', 'theme')
   )
 );
+
+add_theme_support('html5', array('comment-list', 'comment-form', 'search-form', 'gallery', 'caption'));
