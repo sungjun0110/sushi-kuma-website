@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   min-width: 450px;
-  font-family: Arial Narrow, sans-serif;
+  font-family: Arial, sans-serif;
   background: #fff2e6;
 }
 
@@ -235,4 +235,23 @@ input[name="r"] {
   background-color: #252525;
   padding: 150px;
   color: #fff;
+}
+
+.menu-categories {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.menu-container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.img-fluid {
+  width: 300px;
+  float: right;
 }
