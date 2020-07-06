@@ -14,24 +14,26 @@
 
     <header>
 
-      <div class="header">
-        <div class="header-left">
-          <a href="http://localhost/wordpress" class="logo"><img src="http://localhost/wordpress/asset/images/kuma-logo.png"></a>
-        </div>
+      <div id="header">
+        <div class="header-container">
+          <div class="header-left">
+            <a href="http://localhost/wordpress" class="logo"><img src="http://localhost/wordpress/asset/images/kuma-logo.png"></a>
+          </div>
 
-        <div class="menu-toggle"></div>
+          <div class="menu-toggle"></div>
 
-        <div class="header-right">
-          <nav class="main-nav">
-            <?php
-              $args = array(
-                'theme_location' => 'top-menu'
-              );
-            ?>
-            <?php wp_nav_menu( $args ) ?>
-          </nav>
+          <div class="header-right">
+            <nav class="main-nav">
+              <?php
+                $args = array(
+                  'theme_location' => 'top-menu'
+                );
+              ?>
+              <?php wp_nav_menu( $args ) ?>
+            </nav>
+          </div>
+          <div class="clearfix"></div>
         </div>
-        <div class="clearfix"></div>
       </div>
 
     </header>

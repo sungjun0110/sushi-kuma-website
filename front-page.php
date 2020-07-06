@@ -1,10 +1,10 @@
 <?php get_header();?>
 
 <div class="slideshow">
+
   <div class="slides">
     <input type="radio" name="r" id="r1" checked>
     <input type="radio" name="r" id="r2">
-
     <div class="slide s1">
       <img id="slide1" src="asset/images/slide1.png" alt="photo" class="responsive">
     </div>
@@ -16,8 +16,8 @@
 
 
   <div id="slider-navigation">
-    <label for="r1" class="bar checked"></label>
-    <label for="r2" class="bar"></label>
+    <label for="r1" class="circle checked"></label>
+    <label for="r2" class="circle"></label>
   </div>
 
 </div>
@@ -53,5 +53,3 @@
 </div>
 
 <?php get_footer();?>
-
-</body>

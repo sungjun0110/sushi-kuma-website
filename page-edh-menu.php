@@ -14,3 +14,5 @@
     <?php endwhile; endif; ?>
     test
 </div>
+
+<?php get_footer(); ?>

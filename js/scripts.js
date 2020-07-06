@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  setTimeout(showSlides, 5000);
+
   $('.menu-toggle').click(function(){
     $('.menu-toggle').toggleClass('active');
     $('nav').toggleClass('active');
@@ -15,9 +17,32 @@ $(document).ready(function() {
     window.location.href = 'http://localhost/wordpress/menu/';
   });
 
-  $('.bar').click(function(){
-    $('.bar').removeClass('checked');
+  var slideIndex = 0;
+  function showSlides() {
+    if (slideIndex == 0) {
+      slideIndex ++;
+      $('#r1').prop('checked', false);
+      $('#r2').prop('checked', true);
+      $('.circle').toggleClass('checked');
+    }
+    else {
+      slideIndex --;
+      $('#r1').prop('checked', true);
+      $('#r2').prop('checked', false);
+      $('.circle').toggleClass('checked');
+    }
+    setTimeout(showSlides, 5000);
+  };
+
+  $('.circle').click(function(){
+    $('.circle').removeClass('checked');
     $(this).toggleClass('checked');
+    if (slideIndex == 0) {
+      slideIndex ++;
+    }
+    else{
+      slideIndex --;
+    }
   });
 
   $('#appetizer').click(function() {

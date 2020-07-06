@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div id="page-title">Menu</div>
+
 <div class="menu-container">
 
   <div class="menu-category" id="appetizer">Appetizer</div><hr/>
@@ -1060,3 +1062,5 @@
   </div>
 
 </div>
+
+<?php get_footer(); ?>
