@@ -7,6 +7,19 @@ $(document).ready(function() {
     $('.main-nav').toggleClass('slide-down');
   });
 
+  $('#slide1').click(function(){
+    window.location.href = 'http://localhost/wordpress/find-us/';
+  });
+
+  $('#slide2').click(function(){
+    window.location.href = 'http://localhost/wordpress/menu/';
+  });
+
+  $('.bar').click(function(){
+    $('.bar').removeClass('checked');
+    $(this).toggleClass('checked');
+  });
+
   $('#appetizer').click(function() {
     if ($('#appetizer-content').is(':visible')){
       $('#appetizer-content').slideUp("slow");
@@ -50,6 +63,15 @@ $(document).ready(function() {
     }
     else{
       $('#kids-content').slideDown("slow");
+    }
+  });
+
+  $('#sns').click(function() {
+    if ($('#sns-content').is(':visible')){
+      $('#sns-content').slideUp("slow");
+    }
+    else{
+      $('#sns-content').slideDown("slow");
     }
   });
 

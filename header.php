@@ -16,7 +16,7 @@
 
       <div class="header">
         <div class="header-left">
-          <a href="" class="logo"><img src="http://localhost/wordpress/asset/images/kuma-logo.png"></a>
+          <a href="http://localhost/wordpress" class="logo"><img src="http://localhost/wordpress/asset/images/kuma-logo.png"></a>
         </div>
 
         <div class="menu-toggle"></div>
