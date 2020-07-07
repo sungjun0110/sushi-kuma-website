@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div id="page-title">Menu</div>
+
 <div class="location-selector">
   <a href="./roseville-menu">
     <div class="location-box">
@@ -9,7 +11,7 @@
 
   <a href="./edh-menu">
     <div class="location-box">
-      <h1>EDH</h1>
+      <h1>El Dorado Hills</h1>
     </div>
   </a>
 </div>

@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 
-<div id="page-title">Menu</div>
 
 <div class="menu-container">
 
-  <div class="menu-category" id="appetizer">Appetizer</div><hr/>
-    <div class="menu-content" id="appetizer-content">
+  <div id="page-title">Menu</div>
+
+
+  <button class="menu-category" id="appetizer">Appetizer</button>
+  <div class="menu-content" id="appetizer-content">
 
       <div class="item-title">Salad</div>
 
@@ -143,7 +145,7 @@
       </div>
     </div>
 
-  <div class="menu-category" id="nigiri">Nigiri</div><hr/>
+  <button class="menu-category" id="nigiri">Nigiri</button>
   <div class="menu-content" id="nigiri-content">
 
     <div class="item-title">Nigiri</div>
@@ -232,7 +234,7 @@
 
   </div>
 
-  <div class="menu-category" id="street-food">Street Food</div><hr/>
+  <button class="menu-category" id="street-food">Street Food</button>
   <div class="menu-content" id="street-food-content">
     <div class="item-title">Street Foods</div>
     <div class="items">
@@ -298,7 +300,7 @@
     </div>
   </div>
 
-  <div class="menu-category" id="entree">Entrée</div><hr/>
+  <button class="menu-category" id="entree">Entrée</button>
   <div class="menu-content" id="entree-content">
     <div class="item-title">KUMA BENTO BOX</div>
     <div class="bento-description">Lunch: Before 4 pm &nbsp; 11.95<br>Dinner: After 4 pm &nbsp; 16.95<br><span style="font-size: 20px">* Served with soup, salad & rice *<br>* Duplicate choices charge extra $ 1*<br>* No substitution on bento box *</span></div>
@@ -436,7 +438,7 @@
     </div>
   </div>
 
-  <div class="menu-category" id="kids">Kids' Menu</div><hr/>
+  <button class="menu-category" id="kids">Kids' Menu</button>
   <div class="menu-content" id="kids-content">
     <div class="item-title"></div>
     <div class="items">
@@ -459,9 +461,10 @@
     </div>
   </div>
 
-  <div class="menu-category" id="sns">Sushi & Sashimi Combination</div><hr/>
+  <button class="menu-category" id="sns">Sushi & Sashimi Combo</button>
   <div class="menu-content" id="sns-content">
     <div class="item-title">Sushi & Sashimi Combination</div>
+    <p>Served with soup & salad<p>
     <div class="items">
       <div class="item">
         <h4>Sushi-7</h4>
@@ -510,8 +513,9 @@
     </div>
   </div>
 
-  <div class="menu-category" id="rolls">Rolls</div><hr/>
+  <button class="menu-category" id="rolls">Rolls</button>
   <div class="menu-content" id="rolls-content">
+    <div class="discount">Every Roll <span style="color: #bf1a04; font-weight: bold;">50% OFF!</span></div>
     <div class="item-title">Beginner's Roll</div>
     <div class="items">
       <div class="item">
@@ -576,7 +580,7 @@
 
       <div class="item">
         <h4>Texas Roll</h4>
-        <p>DF jalapeno cream cheese, avocado<br>9.99</p>
+        <p>deep-fried jalapeno cream cheese, avocado<br>9.99</p>
       </div>
 
       <div class="item">
@@ -629,7 +633,7 @@
 
       <div class="item">
         <h4>ZigZag Hand Roll</h4>
-        <p>DF.softshell crab,soy wrap<br>8.99</p>
+        <p>deep-fried softshell crab,soy wrap<br>8.99</p>
       </div>
 
       <div class="item">
@@ -639,8 +643,9 @@
     </div>
   </div>
 
-  <div class="menu-category" id="ksr">Kuma Special Rolls</div><hr/>
+  <button class="menu-category" id="ksr">Kuma Special Rolls</button>
   <div class="menu-content" id="ksr-content">
+    <div class="discount">Every Roll <span style="color: #bf1a04; font-weight: bold;">50% OFF!</span></div>
     <div class="item-title">Non-Raw</div>
     <div class="items">
       <div class="item">
@@ -665,32 +670,32 @@
 
       <div class="item">
         <h4>Red Bull </h4>
-        <p>DF. Shrimp, cream cheese | spicy crab meat, masago | special sauce | Soy wrap<br>15.99</p>
+        <p>deep-fried Shrimp, cream cheese | spicy crab meat, masago | special sauce | Soy wrap<br>15.99</p>
       </div>
 
       <div class="item">
         <h4>Spider</h4>
-        <p>DF. soft shell crab, cucumber, avocado, crabmeat | masago | unagi sauce | 5pcs<br>14.50</p>
+        <p>deep-fried soft shell crab, cucumber, avocado, crabmeat | masago | unagi sauce | 5pcs<br>14.50</p>
       </div>
 
       <div class="item">
         <h4>Tempura Crunchy</h4>
-        <p>DF.shrimp, avocado, crab meat, crunchy |unagi sauce | 5pcs<br>13.99</p>
+        <p>deep-fried shrimp, avocado, crab meat, crunchy |unagi sauce | 5pcs<br>13.99</p>
       </div>
 
       <div class="item">
         <h4>Tempura Roll</h4>
-        <p>DF. shrimp, avocado, cucumber, crabmeat | 5pcs<br>11.99</p>
+        <p>deep-fried shrimp, avocado, cucumber, crabmeat | 5pcs<br>11.99</p>
       </div>
 
       <div class="item">
         <h4>Veggie Tempura Roll</h4>
-        <p>D.F - carrot, zucchini, asparagus | unagi sauce- 5pcs<br>11.50</p>
+        <p>deep-fried- carrot, zucchini, asparagus | unagi sauce- 5pcs<br>11.50</p>
       </div>
 
       <div class="item">
         <h4>Yummy Yummy</h4>
-        <p>DF. shrimp, avocado, cucumber, cream cheese, crab meat, masago | 5pcs<br>13.50</p>
+        <p>deep-fried shrimp, avocado, cucumber, cream cheese, crab meat, masago | 5pcs<br>13.50</p>
       </div>
     </div>
 
@@ -703,7 +708,7 @@
 
       <div class="item">
         <h4>Blue Moon</h4>
-        <p>DF.shrimp, orange | unagi, crab, masago | special sauce<br>17.50</p>
+        <p>deep-fried shrimp, orange | unagi, crab, masago | special sauce<br>17.50</p>
       </div>
 
       <div class="item">
@@ -713,17 +718,17 @@
 
       <div class="item">
         <h4>Dragon</h4>
-        <p>DF. shrimp, crabmeat | eel, masago | special sauce<br>16.99</p>
+        <p>deep-fried shrimp, crabmeat | eel, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
         <h4>Rocklin </h4>
-        <p>D.F soft shell crab, cream cheese| unagi | masago<br>17.50</p>
+        <p>deep-friedsoft shell crab, cream cheese| unagi | masago<br>17.50</p>
       </div>
 
       <div class="item">
         <h4>Spicy Johny </h4>
-        <p>DF.shrimp, spicy tuna | eel, masago | special sauce<br>16.99</p>
+        <p>deep-fried shrimp, spicy tuna | eel, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
@@ -733,7 +738,7 @@
 
       <div class="item">
         <h4>Lake Tahoe</h4>
-        <p>DF. shrimp, cream cheese, cucumber | unagi, masago | special sauce<br>16.50</p>
+        <p>deep-fried shrimp, cream cheese, cucumber | unagi, masago | special sauce<br>16.50</p>
       </div>
 
       <div class="item">
@@ -746,7 +751,7 @@
     <div class="items">
       <div class="item">
         <h4>49er</h4>
-        <p>D.F shrimp, cream cheese, cucumber | salmon, lemon, masago | special sauce<br>15.50</p>
+        <p>deep-friedshrimp, cream cheese, cucumber | salmon, lemon, masago | special sauce<br>15.50</p>
       </div>
 
       <div class="item">
@@ -756,7 +761,7 @@
 
       <div class="item">
         <h4>Arigato</h4>
-        <p>D.F Shrimp | salmon, tuna, masago | special sauce<br>14.99</p>
+        <p>deep-friedShrimp | salmon, tuna, masago | special sauce<br>14.99</p>
       </div>
 
       <div class="item">
@@ -771,12 +776,12 @@
 
       <div class="item">
         <h4>Folsom Lake</h4>
-        <p>D.F shrimp, spicy tuna | salmon, masago | special sauce<br>16.99</p>
+        <p>deep-friedshrimp, spicy tuna | salmon, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
         <h4>Happy</h4>
-        <p>D.F shrimp | tuna, yellowtail, masago | special sauce<br>15.99</p>
+        <p>deep-friedshrimp | tuna, yellowtail, masago | special sauce<br>15.99</p>
       </div>
 
       <div class="item">
@@ -786,17 +791,17 @@
 
       <div class="item">
         <h4>Kuma</h4>
-        <p>D.F shrimp | avocado, sweet shrimp & 5 kinds of raw fish masago | special sauce<br>18.50</p>
+        <p>deep-friedshrimp | avocado, sweet shrimp & 5 kinds of raw fish masago | special sauce<br>18.50</p>
       </div>
 
       <div class="item">
         <h4>Las Vegas</h4>
-        <p>D.F Asparagus, crabmeat, cream cheese | tuna, salmon, masago, special sauce<br>16.99</p>
+        <p>deep-friedAsparagus, crabmeat, cream cheese | tuna, salmon, masago, special sauce<br>16.99</p>
       </div>
 
       <div class="item">
         <h4>Mafia</h4>
-        <p>D.F shrimp, crabmeat, cream cheese | scallop, salmon, masago | special sauce<br>16.99</p>
+        <p>deep-friedshrimp, crabmeat, cream cheese | scallop, salmon, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
@@ -806,7 +811,7 @@
 
       <div class="item">
         <h4>Pink Lady</h4>
-        <p>D.F shrimp, crab meat | tuna, masago | special sauce<br>16.99</p>
+        <p>deep-friedshrimp, crab meat | tuna, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
@@ -821,12 +826,12 @@
 
       <div class="item">
         <h4>Thunder Valley</h4>
-        <p>D.F shrimp, crab meat | scallop, masago | special sauce<br>16.99</p>
+        <p>deep-friedshrimp, crab meat | scallop, masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
         <h4>Samurai</h4>
-        <p>D.F asparagus, spicy crab, spicy tuna | salmon, white tuna, masago | special sauce<br>16.50</p>
+        <p>deep-friedasparagus, spicy crab, spicy tuna | salmon, white tuna, masago | special sauce<br>16.50</p>
       </div>
 
       <div class="item">
@@ -836,7 +841,7 @@
 
       <div class="item">
         <h4>Valentine Roll</h4>
-        <p>D.F shrimp, crab meat, cilantro, lemon | tuna, salmon, g onion | special sauce<br>17.99</p>
+        <p>deep-friedshrimp, crab meat, cilantro, lemon | tuna, salmon, g onion | special sauce<br>17.99</p>
       </div>
 
       <div class="item">
@@ -854,22 +859,22 @@
 
       <div class="item">
         <h4>Bad Boys</h4>
-        <p>D.F asparagus, crab meat | seared albacore, tuna, D.F jalapeno | unagi sauce<br>15.50</p>
+        <p>deep-friedasparagus, crab meat | seared albacore, tuna, deep-friedjalapeno | unagi sauce<br>15.50</p>
       </div>
 
       <div class="item">
         <h4>Charisma</h4>
-        <p>D.F shrimp | spicy crab, seared tuna, albacore, masago | special sauce<br>15.99</p>
+        <p>deep-friedshrimp | spicy crab, seared tuna, albacore, masago | special sauce<br>15.99</p>
       </div>
 
       <div class="item">
         <h4>Roseville</h4>
-        <p>D.F soft shell crab, crab meat | salmon, seared tuna, masago | special sauce<br>17.99</p>
+        <p>deep-friedsoft shell crab, crab meat | salmon, seared tuna, masago | special sauce<br>17.99</p>
       </div>
 
       <div class="item">
         <h4>Lucky7</h4>
-        <p>D.F shrimp, crabmeat, spicy tuna | seared salmon,  masago | special sauce<br>16.99</p>
+        <p>deep-friedshrimp, crabmeat, spicy tuna | seared salmon,  masago | special sauce<br>16.99</p>
       </div>
 
       <div class="item">
@@ -879,27 +884,27 @@
 
       <div class="item">
         <h4>Lincoln</h4>
-        <p>D.F Asparagus, spicy crab | seared white tuna, D.F. Onion | unagi sauce<br></p>
+        <p>deep-friedAsparagus, spicy crab | seared white tuna, deep-fried Onion | unagi sauce<br></p>
       </div>
 
       <div class="item">
         <h4>Diablo</h4>
-        <p>D.F Shrimp, spicy tuna | 5 kinds of seared fish, masago | chili pepper, unagi sauce<br>17.99</p>
+        <p>deep-friedShrimp, spicy tuna | 5 kinds of seared fish, masago | chili pepper, unagi sauce<br>17.99</p>
       </div>
 
       <div class="item">
         <h4>Yosemite</h4>
-        <p>D.F Shrimp, spicy crab | seared tuna, D.F. carrot | unagi sauce<br>15.50</p>
+        <p>deep-friedShrimp, spicy crab | seared tuna, deep-fried carrot | unagi sauce<br>15.50</p>
       </div>
 
       <div class="item">
         <h4>TNT</h4>
-        <p>D.F asparagus, spicy crab meat | spicy tuna, jalapeno, crunch, masago | unagi sauce<br>17.50</p>
+        <p>deep-friedasparagus, spicy crab meat | spicy tuna, jalapeno, crunch, masago | unagi sauce<br>17.50</p>
       </div>
 
       <div class="item">
         <h4>Zig Zag Roll</h4>
-        <p>D.F soft shell crab, avocado, zig zag sauce | Soy Wrap<br>16.99</p>
+        <p>deep-friedsoft shell crab, avocado, zig zag sauce | Soy Wrap<br>16.99</p>
       </div>
     </div>
 
@@ -907,22 +912,22 @@
     <div class="items">
       <div class="item">
         <h4>Golden CA</h4>
-        <p>Crab meat, avocado | D.F, unagi sauce<br>11.99</p>
+        <p>Crab meat, avocado | deep-fried, unagi sauce<br>11.99</p>
       </div>
 
       <div class="item">
         <h4>Golden Spicy</h4>
-        <p>Spicy tuna, cream cheese, cucumber | D.F, spicy & unagi sauce<br>11.99</p>
+        <p>Spicy tuna, cream cheese, cucumber | deep-fried, spicy & unagi sauce<br>11.99</p>
       </div>
 
       <div class="item">
         <h4>Ninja</h4>
-        <p>Spicy tuna, albacore, eel, cream cheese | D.F, masago, spicy & special sauce - 5pcs<br>15.99</p>
+        <p>Spicy tuna, albacore, eel, cream cheese | deep-fried, masago, spicy & special sauce - 5pcs<br>15.99</p>
       </div>
 
       <div class="item">
         <h4>Oh! Yes</h4>
-        <p>Salmon, tuna, yellowtail, avocado | D.F, unagi sauce - 5pcs<br>15.99</p>
+        <p>Salmon, tuna, yellowtail, avocado | deep-fried, unagi sauce - 5pcs<br>15.99</p>
       </div>
     </div>
 
@@ -938,9 +943,78 @@
         <p>Crab meat, avocado | scallop, special sauce & masago added after cooking - 6pcs<br>14.50</p>
       </div>
     </div>
+
+    <div id="roll-extra">
+      <h5>Would you like to add toppings?</h5>
+      <div class="extras">
+        <div class="extra">
+          Masago | 1.00
+        </div>
+
+        <div class="extra">
+          Cucumber | 1.00
+        </div>
+
+        <div class="extra">
+          Crabmeat | 1.00
+        </div>
+
+        <div class="extra">
+          Japapeno | 1.00
+        </div>
+
+        <div class="extra">
+          Soy Wrap | 1.50
+        </div>
+
+        <div class="extra">
+          Cream Cheese | 1.00
+        </div>
+
+        <div class="extra">
+          Spicy Tuna | 1.50
+        </div>
+
+        <div class="extra">
+          Extra Fish | 2.50
+        </div>
+
+        <div class="extra">
+          Real Crab | 2.50
+        </div>
+
+        <div class="extra">
+          Crunchy | 1.00
+        </div>
+
+        <div class="extra">
+          Avocado | 1.00
+        </div>
+
+        <div class="extra">
+          Deep-fried Shrimp | 1.50
+        </div>
+
+        <div class="extra">
+          Spicy Crabmeat | 1.00
+        </div>
+
+        <div class="extra">
+          Deep-fried Asparagus | 1.00
+        </div>
+
+        <div class="extra">
+          Cooked Shrimp | 1.50
+        </div>
+
+        <div class="extra">
+          Deep-fry your roll | 1.00
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="menu-category" id="sides">Sides</div><hr/>
+  <button class="menu-category" id="sides">Sides</button>
   <div class="menu-content" id="sides-content">
     <div class="item-title"></div>
     <div class="items">
@@ -961,7 +1035,7 @@
     </div>
   </div>
 
-  <div class="menu-category" id="alcohol">Alcoholic Beverage</div><hr/>
+  <button class="menu-category" id="alcohol">Alcoholic Beverage</button>
   <div class="menu-content" id="alcohol-content">
     <div class="item-title"></div>
     <div class="items">
@@ -972,7 +1046,7 @@
 
       <div class="item">
         <h4>Draft Beer</h4>
-        <p>Sapporo<br>12oz: 3.75 | 22oz: 6.59 | Pitcher: 15.95</p>
+        <p>Sapporo<br>12oz: 3.75 | 22oz: 6.50 | Pitcher: 15.95</p>
       </div>
 
       <div class="item">
@@ -1014,7 +1088,7 @@
     <div class="corkage">*** Corkage Fee - 10.00 ***</div>
   </div>
 
-  <div class="menu-category" id="bnd">Beverage & Dessert</div><hr/>
+  <button class="menu-category" id="bnd">Beverage & Dessert</button>
   <div class="menu-content" id="bnd-content">
     <div class="item-title"></div>
     <div class="items">
