@@ -1,6 +1,6 @@
 <div id="footer">
   <div class="footer-container">
-    <a href="http://localhost/wordpress" class="logo"><img src="http://localhost/wordpress/asset/images/kuma-logo-ddd.png"></a>
+    <a href="https://www.sushikuma.net" class="logo"><img src="http://www.sushikuma.net/asset/kuma/images/kuma-logo-ddd.png"></a>
 
     <div id="footer-nav">
       <nav>

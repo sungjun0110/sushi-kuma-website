@@ -9,12 +9,12 @@ $(document).ready(function() {
     $('.main-nav').toggleClass('slide-down');
   });
 
-  $('#slide1').click(function(){
-    window.location.href = 'http://localhost/wordpress/find-us/';
+  $('#slide1').click(function() {
+    window.location.href = 'http://www.sushikuma.net/find-us/';
   });
 
-  $('#slide2').click(function(){
-    window.location.href = 'http://localhost/wordpress/menu/';
+  $('#slide2').click(function() {
+    window.location.href = 'http://www.sushikuma.net/menu/';
   });
 
   var slideIndex = 0;

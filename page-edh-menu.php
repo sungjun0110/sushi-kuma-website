@@ -5,7 +5,7 @@
 <div class="menu-container">
 
   <button class="menu-category" id="appetizer">Appetizer</button>
-    <div class="menu-content" id="appetizer-content">
+  <div class="menu-content" id="appetizer-content">
 
       <div class="item-title">Salad</div>
 
